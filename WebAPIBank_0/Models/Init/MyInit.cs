@@ -17,7 +17,7 @@ namespace WebAPIBank_0.Models.Init
             ci.CardNumber = "2222 1111 1111 1111";
             ci.CardExpiryYear = 2024;
             ci.CardExpiryMonth = 12;
-            ci.SecurityNumber = "1995";
+            ci.SecurityNumber = "1995"; 
             ci.Limit = 50000;
             ci.Balance = 50000;
             context.Cards.Add(ci);
